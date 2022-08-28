@@ -1,96 +1,63 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
+
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0;
-  font-family: sans-serif;
-  color: #fff;
-  background-color: #182a32;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+	font-family: sans-serif;
+	color: #fff;
+	background-color: #182a32;
 }
 
 .board {
-  /* background-color: #eee; */
-  width: 300px;
-  height: 300px;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  /* gap: 2px 2px; */
-  /* border: 1px solid #555; */
+	width: 300px;
+	height: 300px;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
 }
+
 .board-section {
-  background-color: #1f3540;
-  border-bottom: 8px solid #102129;
-  border-radius: 14px;
-  width: 90px;
-  height: 90px;
-  /* border: 1px solid #555; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 45px;
-  user-select: none;
-  font-weight: bolder;
+	background-color: #1f3540;
+	border-bottom: 8px solid #102129;
+	border-radius: 14px;
+	width: 90px;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 45px;
+	user-select: none;
+	font-weight: bolder;
 }
-/* main {
-  position: relative;
-  width: fit-content;
-}
-main span {
-  width: 100%;
-  height: 2px;
-  background-color: #444;
-  position: absolute;
-  z-index: 10;
-}
-main span:nth-last-of-type(1) {
-  left: 0;
-  top: 33%;
-}
-main span:nth-last-of-type(2) {
-  left: 0;
-  top: 66%;
-}
-main span:nth-last-of-type(3) {
-  left: 33%;
-  top: 0;
-  width: 2px;
-  height: 100%;
-}
-main span:nth-last-of-type(4) {
-  left: 66%;
-  top: 0;
-  width: 2px;
-  height: 100%;
-} */
 
 .x {
-  color: #f1b236;
+	color: #f1b236;
 }
 .o {
-  color: #2ec4bd
+	color: #2ec4bd;
 }
 button {
-  background-color: #a8bec9;
-  border: none;
-  border-bottom: 4px solid #6c8795;
-  color: #1f3540;
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  font-size: 18px;
-  border-radius: 4px;
-  transition: 0.3s;
-  cursor: pointer;
+	background-color: #a8bec9;
+	border: none;
+	border-bottom: 4px solid #6c8795;
+	color: #1f3540;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	font-size: 18px;
+	border-radius: 4px;
+	transition: 0.3s;
+	cursor: pointer;
 }
 button:hover {
-  background-color: #9db2be;
+	background-color: #9db2be;
 }
 .result {
-  font-size: 20px;
-  height: 30px;
+	font-size: 20px;
+	height: 30px;
 }
